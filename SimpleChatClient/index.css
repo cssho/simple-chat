@@ -1,0 +1,65 @@
+textarea {
+    width:100%;
+    height: 80px;
+    resize: none;
+}
+
+button {
+    border: none;
+    width: 100%;
+    height: 80px;
+}
+
+#textdiv {
+    padding: 0px 0px 5px 5px;
+}
+
+#buttondiv {
+    padding: 0px 5px 0px 5px;
+    text-align: left;
+}
+
+#input{
+    z-index: 99;
+    height: 85px;
+    position: fixed !important;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+#log {
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-bottom: 85px;
+    padding-top: 40px;
+}
+#space {
+    z-index: 98;
+    height: 5px;
+    width: 100%;
+    position: relative;
+    position: fixed !important;
+    position: absolute;
+    bottom: 85px;
+    background-color: #FFFFFF;
+}
+.notice {
+    box-shadow: 0px 0px 15px #FF0000;
+}
+#member{
+    z-index: 100;
+    height: 40px;
+    position: fixed !important;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: #AFFFFF;
+}
+.username{
+    margin: 1px;
+}
